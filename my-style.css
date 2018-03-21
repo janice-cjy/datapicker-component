@@ -1,0 +1,26 @@
+.j-datepicker-wrapper {
+	width: 500px;
+}
+.j-datepicker-wrapper .j-datepicker-header {
+	text-align: center;
+	width: 500px;
+	background-color: #ccc;
+}
+.j-datepicker-wrapper .j-datepicker-btn {
+	text-decoration: none;
+	cursor: pointer;
+}
+.j-datepicker-wrapper .j-datepicker-pre-btn {
+	float: left;
+}
+.j-datepicker-wrapper .j-datepicker-next-btn {
+	float: right;
+}
+.j-datepicker-wrapper table {
+	width: 100%;
+	border-collapse:collapse;
+}
+.j-datepicker-wrapper td {
+	border:1px solid #ccc;
+}
+
