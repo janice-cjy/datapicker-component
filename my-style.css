@@ -1,5 +1,10 @@
 .j-datepicker-wrapper {
 	width: 500px;
+	display: none;
+	position: absolute;
+}
+.j-datepicker-wrapper-show {
+	display: block;
 }
 .j-datepicker-wrapper .j-datepicker-header {
 	text-align: center;
@@ -22,5 +27,16 @@
 }
 .j-datepicker-wrapper td {
 	border:1px solid #ccc;
+	text-align: center;
+	cursor: pointer;
+}
+.j-datepicker-wrapper .j-pre-date{
+	background-color: #ff0000;
+}
+.j-datepicker-wrapper .j-now-date{
+	background-color: #00ff00;
+}
+.j-datepicker-wrapper .j-next-date{
+	background-color: #0000ff;
 }
 

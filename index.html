@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="my-style.css">
 </head>
 <body>
-<div class="j-datepicker-wrapper">
+<!-- <div class="j-datepicker-wrapper">
 	<div class="j-datepicker-header">
 		<a href="#" class="j-datepicker-btn j-datepicker-pre-btn">&lt</a>
 		<a href="#" class="j-datepicker-btn j-datepicker-next-btn">&gt</a>
@@ -82,11 +82,16 @@
 			</tbody>
 		</table>
 	</div>
-</div>
+</div> -->
+<input type="text" class="j-datepicker-input" style="position: absolute;left: 100px;top:30px;">
 <script type="text/javascript" src="getDate.js"></script>
+<script type="text/javascript" src="main.js"></script>
 <script type="text/javascript">
-	var date = datePicker.getDate();
-	console.log(date);
+	/*var date = datePicker.getDate();
+	console.log(date);*/
+	window.onload=function(){
+		datePicker.init('j-datepicker-input');
+	}
 </script>
 </body>
 </html>
